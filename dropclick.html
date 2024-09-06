@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        input[type = 'checkbox']:checked~ .show{
+            display: block;
+        }
+        input[type = 'checkbox']{
+            display: none;
+           
+        }
+        input{
+            border: none;
+            outline: none;
+        }
+
+        .show{
+            height: 200px;
+            width: 400%;
+            background-color: brown;
+            display: none;
+        }
+
+        .spacing{
+            display: flex;
+            flex-direction: column;
+            border: 3px solid blanchedalmond;
+            width: fit-content;
+            border-radius: 40px;
+            padding: 1em 2em;
+        }
+
+       
+
+        .grid-box{
+
+            justify-content: center;
+            margin: 15px;
+            gap: 26px;
+            display: grid;
+            grid-template-rows: repeat(3, 100px);
+            grid-template-columns: repeat(2, 100px);
+        }
+
+        .grid-child{
+            border-radius: 16px;
+            /* background-color: black; */
+            display: flex;
+            border: 2px solid blue;
+        }
+
+        .grid-child:hover{
+            background-color:black;
+        }
+
+        .head-dropdown{
+            margin: 0 50px auto;
+             width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head-dropdown">
+        <input type="checkbox" id="dropdown">
+        <label for="dropdown">
+            <div class="spacing">
+                <p>Where</p>
+                <input type="text" placeholder="Search">
+            </div>
+        </label>
+
+        <div class="show">
+            u
+            <div class="grid-box">
+                <div class="grid-child"><p>yrhfhfb</p></div>
+                <div class="grid-child"></div>
+                <div class="grid-child"><p class="ppp">eeee</p></div>
+                <div class="grid-child"></div>
+                <div class="grid-child"></div>
+                <div class="grid-child"></div>
+
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

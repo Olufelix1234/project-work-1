@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .dropbtn {
+        background-color: #4caf50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        /* cursor: pointer; */
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown:hover .dropbtn{
+        background-color: red;
+      }
+
+
+
+      
+  .grid-dad{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 200px);
+    background-color: #4caf50;
+  }
+
+  .grid-child{
+    border: 3px solid red;
+    background-color: black
+  }
+
+  .w{
+    display: block;
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+  }
+
+  .p img{
+    width: 30%;
+  }
+
+  .p{
+    display: block;
+    /* margin: 3px auto; */
+    /* width: 10%; */
+    /* height: 50rem; */
+  }
+  .p.p:hover{
+    display: block;
+
+    /* margin-bottom:  3px auto; */
+    /* height: 6%; */
+    background-color: red;
+  }
+
+    </style>
+  </head>
+  <body>
+    <h2>Dropdown Menu</h2>
+    <p>Move the mouse over the button to open the dropdown menu.</p>
+
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown</button>
+      
+      <div class="dropdown-content">
+        <input type="checkbox">
+        <a href="3">Link 122</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div>
+
+
+    <div class="grid-dad">
+      <div class="grid-child"> <img src="download13.png" alt=""> </div>
+      <div class="grid-child"></div>
+      <div class="grid-child"></div>
+      <div class="grid-child"></div>
+      <div class="grid-child"></div>
+      <div class="grid-child"></div>
+</div>
+
+
+
+  <img src="download11.png" alt="">
+
+
+  <div class="w">
+    <div class="p">
+      <img src="download1.png" alt="">
+      <span>tttt</span>
+      <p>t66666666</p>
+    </div>
+  </div>
+
+   
+  </body>
+</html>

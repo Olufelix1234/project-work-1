@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid black; */
+}
+
+body{
+  font: 1em sans-serif;
+}
+
+:root {
+    --light-grey: #F2F7F8;
+    --medium-gray: #3d4f60;
+    --dark-blue: #122231;
+    --blue: #0000ff;
+    --mainblue: #6091d1;
+    --mainwhite: #ffffff;
+    --mainblack: #fde4e4;
+    --textcolor: #848586;
+    --investment: #740fb8;
+    --flexdollar: #3b3a3b;
+    --flexnaira: rgb(0, 255, 0);
+    --mainred: #ff0000;
+    --lightgreen: rgb(104, 167, 96);
+}
+
+nav{
+  /* background-color: #ff0000; */
+}
+.container {
+    width: 200vh;
+    margin: 0 auto;
+  }
+
+
+.navbar{
+  background-color: #0000ff;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+}
+
+.check{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 28%;
+  height: 45px;
+  padding: 3px 11px;
+  border-radius: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.258);
+}
+
+.check-one {
+  justify-content: space-around;
+  width: 22%;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.check-two{
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  height: 60px;
+  background-color: #ffffff;
+}
+
+.position{
+  justify-content: center;
+  display:column;
+  align-items: center;
+  position: absolute;
+  left: 45%;
+  gap: 1rem;
+  display: flex;
+  top: 25px;
+}
+
+.check-three{
+  gap: 1rem;
+  display: flex;
+}
+
+
+input{
+  outline: none ;
+  border: none;
+}
+
+.check-line{
+  padding: 0 9px;
+  border-right: 1px solid #3b3a3b;
+}
